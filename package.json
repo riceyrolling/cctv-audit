@@ -1,0 +1,23 @@
+{
+  "name": "cctv-audit",
+  "version": "1.0.0",
+  "description": "A simple bash script to loop through IP range and NodeJS to download image from each camera.",
+  "main": "download.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riceyrolling/cctv-audit.git"
+  },
+  "author": "Caleb Rocca <caleb.rocca@sensen.ai>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/riceyrolling/cctv-audit/issues"
+  },
+  "homepage": "https://github.com/riceyrolling/cctv-audit#readme",
+  "dependencies": {
+    "onvif": "^0.6.0",
+    "onvif-snapshot": "github:riceyrolling/onvif-snapshot"
+  }
+}
